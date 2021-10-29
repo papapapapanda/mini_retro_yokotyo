@@ -1,0 +1,181 @@
+  .shinbun2021 img {
+    width: 100%;
+  }
+
+  .shinbun2021{
+    width: 90%;
+    padding-left: 5%;
+  }
+
+
+.pic{
+  width: 230px;
+  height: 170px;
+  border: 2px solid rgb(224, 223, 223);
+  padding: 0;
+  margin: 0vh 3vw 0vh 1vw
+}
+
+.date{ 
+  color: #CD853F;
+}
+
+.ta{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  margin-left: 3vw;
+}
+
+h4{
+  color: #CC6633;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.mini{
+  text-align: center;
+}
+
+h6{
+      font-size: 1.2vw;
+      margin-left: 1vw;
+      margin-bottom: 0;  
+      text-shadow: #fff 2px 0, #fff -2px 0, #fff 0 -2px, #fff 0 2px, #fff 2px 2px, #fff -2px 2px, #fff 2px -2px, #fff -2px -2px, #fff 1px 2px, #fff -1px 2px;
+      color: #996666;
+}
+
+.ta p{
+  margin: 0vh 1vw 0vh 1vw;
+  padding: 0;
+}
+
+.movie{
+  color: #CD853F;
+}
+
+.sinbun {
+  margin-bottom: 3.5em;
+  margin-top: 3.5em;
+}
+
+.aizu{
+  margin-bottom: 3.5em;
+  margin-top: 3.5em;
+}
+
+.background{
+  background-image: url(index-gallery/main.jpg);
+}
+
+/*ぼたん*/
+.day-btn{
+  text-align: center;
+  margin: 30px 0px 50px;
+
+}
+
+.day-btn a{
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.btn{
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all  0.4s ease;
+}
+
+a.btn:hover{
+    background-color: rgba(165, 127, 96, 0.788);
+    color: white;
+}
+
+a.btn{
+  margin: 0px 2px;
+  padding: 10px 15px;
+  background-color: rgba(223, 135, 94, 0.904);
+  border-radius: 10px;
+  border: 1.5px solid rgba(223, 135, 94, 0.904);
+}
+
+.LINE{
+  width: 90px;
+  height: 90px;
+}
+
+/*パソコンのとき*/
+@media screen and (min-width:767px) { 
+  h4{
+    font-size: 2.5vw;
+  }
+  
+  .youtube{
+    position: relative;;
+    width: 500px;
+    height: 250px;
+  }
+
+  .youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    width: 90%;
+    height: 100%;
+  }
+}
+
+
+/*スマホのとき*/
+@media screen and (max-width:767px) {
+   .ta{
+     flex-flow: column;
+   }
+
+   h4{ /*追加*/
+     font-size: 1.4em;
+   }
+
+   h6{
+      font-size: 15px;
+   }
+
+   .ta1{
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .ta2{
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 23px;
+
+   }
+   .ta3{
+     margin-left: auto;
+     margin-right: auto;
+   }
+   .ta4{
+     margin-left: auto;
+     margin-right: auto;
+   }
+  
+  .youtube{
+    position: relative;
+    width: 100%;
+    padding: calc(250/500 * 100%) 0 0;
+  }
+
+  .youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 15px;
+    width: 90%;
+    height: 100%;
+  }
+ }
