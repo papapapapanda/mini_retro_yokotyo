@@ -1,3 +1,14 @@
+#pv_center{
+  position: relative;
+  text-align: center;
+}
+
+#pv_text{
+  font-size: 30px;
+  margin-top:5px ;
+}
+
+
 html{
   font-size: 1vw;
 }
@@ -362,7 +373,7 @@ hr { /*追加*/
 
     .main h1{
       text-align: center; /*どの長さのタイトルでも真ん中になる*/
-      margin-top: 5.2em；
+      margin-top: 5.2em;
       font-size: 2.5em; /*なるべく同じで、バランスを見て調整してください*/
     }
 
@@ -461,5 +472,12 @@ hr { /*追加*/
         color: rgb(245, 231, 215);
         font-size: 0.1px;
       }
+/*PVの設定*/
+      #pv_text{
+        font-size: 12px;
+      }
+    iframe{ width:280px;
+       height:157.5px ;
+    }
 
-  }
+    }
